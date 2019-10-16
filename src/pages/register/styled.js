@@ -1,0 +1,50 @@
+import styled from "styled-components";
+
+export const LoginWrapper = styled.div`
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:2rem;
+    padding:.25rem;
+    .login-form{
+        width:100%;
+    }
+    #login{
+        display:flex;
+        flex-direction:column;
+    }
+    label{
+        font-size:.3rem;
+        display:flex;
+        align-items:center;
+        margin-top:.3rem;
+        span{
+            display:block;
+            min-width:1rem;
+            text-align:center;
+        }
+    }
+    .userInfo{
+        font-size:.24rem;
+        height:.8rem;
+        line-height:.8rem;
+        padding-left:.2rem;
+    }
+    input{
+        width:70%;
+        height:.5rem;
+        border:0;
+        border-bottom:1px solid #ededed;
+        font-size:.3rem;
+        outline:none;
+    }
+    button{
+        width:100%;
+        height:.8rem;
+        border:0;
+        background:#ff5f16;
+        color:#fff;
+        font-size:.3rem;
+        margin-top:.6rem;
+    }
+`
